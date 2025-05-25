@@ -1,0 +1,15 @@
+[project]
+name = "ComfyUI-TkNodes"
+version = "nightly"
+description = "Nodos personalizados para ComfyUI con escalado de imágenes, manipulación de latentes y soporte para Flux"
+[project.metadata]
+nodes = [
+    "FluxAdvancedSampler",
+    "FluxLatentSampler",
+    "LoadImageAndScaleToTotalPixels",
+    "LoadModelAndUpscaleImage",
+    "MultiLatentSelector",
+    "MultiModelLoader",
+    "RepeatLatentBatchOptional",
+    "VAEEncodeOptional"
+]
