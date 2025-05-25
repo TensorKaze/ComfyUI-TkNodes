@@ -1,0 +1,15 @@
+[project]
+name = "tknodes"
+description = "Custom nodes for ComfyUI with advanced image scaling, latent manipulation, and Flux sampling"
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["torch", "numpy", "Pillow", "spandrel"]
+
+[project.urls]
+Repository = "https://github.com/TensorKaze/ComfyUI-TkNodes"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-TkNodes"
+Icon = ""
