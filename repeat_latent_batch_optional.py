@@ -1,4 +1,5 @@
 import torch
+import math
 from comfy.comfy_types import IO
 
 class RepeatLatentBatchOptional:
