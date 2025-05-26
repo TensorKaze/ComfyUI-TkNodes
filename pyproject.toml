@@ -1,7 +1,17 @@
 [project]
 name = "ComfyUI-TkNodes"
-version = "nightly"
 description = "Nodos personalizados para ComfyUI con escalado de imágenes, manipulación de latentes y soporte para Flux"
+version = "nightly"
+license = { file = "LICENSE" }
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/TensorKaze/ComfyUI-TkNodes"
+
+[tool.comfy]
+PublisherId = "tensorkaze"
+DisplayName = "ComfyUI-TkNodes"
+
 [project.metadata]
 nodes = [
     "FluxAdvancedSampler",
