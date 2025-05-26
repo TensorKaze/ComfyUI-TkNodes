@@ -1,6 +1,6 @@
 [project]
 name = "ComfyUI-TkNodes"
-description = "Nodos personalizados para ComfyUI con escalado de imágenes, manipulación de latentes y soporte para Flux"
+description = "Custom nodes for ComfyUI with image scaling, latent manipulation, and Flux support"
 version = "nightly"
 license = { file = "LICENSE" }
 dependencies = []
