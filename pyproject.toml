@@ -14,12 +14,12 @@ DisplayName = "ComfyUI-TkNodes"
 
 [project.metadata]
 nodes = [
-    "FluxAdvancedSampler",
-    "FluxLatentSampler",
-    "LoadImageAndScaleToTotalPixels",
-    "LoadModelAndUpscaleImage",
-    "MultiLatentSelector",
-    "MultiModelLoader",
-    "RepeatLatentBatchOptional",
-    "VAEEncodeOptional"
+    "Flux Advanced Sampler",
+    "Flux Latent Sampler",
+    "Load Image & Scale to Total Pixels",
+    "Load Model & Upscale Image",
+    "Multi-Latent Selector",
+    "Multi-Model Loader",
+    "Repeat Latent Batch (Optional)",
+    "VAE Encode (Optional)"
 ]
